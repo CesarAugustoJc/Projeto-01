@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;/** estilo da fonte**/
+    text-align: center;/** Alinhando tudo no centro**/
+    margin-bottom: 32px;/** Estou colocando um espaçamento na parte de baixo **/
+    margin: 0;
+}
+#hero{
+    width: 592px;/**Estou colocando a largura da caixa HERO   e com isso o text-align  so alinha as coisas dentro dessa caixa  e hero **/
+    margin: 0 auto 72px;/**Uso essa margin -auto para colocar essa caixa  no meu do body bem alinhado  **/
+
+}
+#hero img{
+    margin-bottom: 72px;/** Estou colocando um espaçamento na parte de baixo **/
+}
+
+h1{
+    font-family: 'Inter', sans-serif;/** estilo da fonte**/
+    font-size: 48px;/**Tamanho da fonte **/
+    line-height: 56px;/**altura da linha  **/
+    font-weight: normal;/**Nessa TAG  tiramos o tamanho grande da fonte e  diminuimos **/
+}
+h1 span{
+    font-weight: bold;/**Nessa TAG  colocamos tamanho grande da fonte e  diminuimos na tag de cima  **/
+}
+span,a{
+    color:#FF9900;/**cor da fonte**/
+}
+p, #footer{
+    color: #7D7987;/**cor da fonte**/
+    font-size: 14px;/**Tamanho da fonte **/
+    line-height:28px ;/**altura da linha  **/
+}
+#footer a + a {
+    margin-left: 28px;
+}
+
+#footer{
+    margin-bottom: 22px;
+}
+#line{
+    width: 568px;
+    border: 1px #ECEFF2 solid;
+    margin: 0 auto 8px;
+
+}
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
